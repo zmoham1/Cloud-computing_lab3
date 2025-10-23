@@ -55,15 +55,15 @@ print(f"Bucket {bucket_name} created successfully!")
 
 import boto3
 
-aws_access_key = "AKIAU64TIM3ZALM3FFMK"
-aws_secret_key = "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"
+ = "**************"
+aws_secret_key = "****************************"
 region = "us-east-2"
 
 # EC2 client
 ec2 = boto3.client(
     "ec2",
     region_name=region,
-    aws_access_key_id=aws_access_key,
+    _id=,
     aws_secret_access_key=aws_secret_key
 )
 
@@ -71,7 +71,7 @@ ec2 = boto3.client(
 s3 = boto3.client(
     "s3",
     region_name=region,
-    aws_access_key_id=aws_access_key,
+    _id=,
     aws_secret_access_key=aws_secret_key
 )
 
@@ -88,14 +88,14 @@ print(f"File {file_name} uploaded successfully!")
 
 import boto3
 
-aws_access_key = "AKIAU64TIM3ZALM3FFMK"
-aws_secret_key = "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"
+ = "**************"
+aws_secret_key = "****************************"
 region = "us-east-2"
 
 s3 = boto3.client(
     "s3",
     region_name=region,
-    aws_access_key_id=aws_access_key,
+    _id=aws_access_key,
     aws_secret_access_key=aws_secret_key
 )
 
@@ -111,8 +111,8 @@ except Exception as e:
 
 import boto3
 
-aws_access_key = "AKIAU64TIM3ZALM3FFMK"
-aws_secret_key = "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"
+aws_access_key = "**************"
+aws_secret_key = "****************************"
 region = "us-east-2"
 
 
@@ -135,8 +135,8 @@ except Exception as e:
 import boto3
 
 # Hardcoded credentials (only for lab/testing)
-aws_access_key = "AKIAU64TIM3ZALM3FFMK"
-aws_secret_key = "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"
+aws_access_key = "**************"
+aws_secret_key = "****************************"
 region = "us-east-2"
 
 # Create S3 client with creds
@@ -161,8 +161,8 @@ except Exception as e:
 import boto3
 
 # Hardcoded credentials (ok for lab/testing, not safe for production)
-aws_access_key = "AKIAU64TIM3ZALM3FFMK"
-aws_secret_key = "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"
+aws_access_key = "**************K"
+aws_secret_key = "****************************"
 region = "us-east-2"
 
 # Create S3 client
