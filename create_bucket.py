@@ -11,8 +11,8 @@ pip install boto3
 
 import boto3
 
-aws_access_key = "AKIAU64TIM3ZALM3FFMK"
-aws_secret_key = "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"
+aws_access_key = "**********"
+aws_secret_key = "*******************"
 
 # Create EC2 client
 ec2 = boto3.client(
@@ -24,8 +24,8 @@ ec2 = boto3.client(
 
 import boto3
 
-aws_access_key = "AKIAU64TIM3ZALM3FFMK"
-aws_secret_key = "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"
+aws_access_key = "**************"
+aws_secret_key = "*******************"
 region = "us-east-2"
 
 # EC2 client
